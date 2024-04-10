@@ -1,8 +1,8 @@
 <template>
   <div>This page is about me!</div>
-  <div>
+  <!-- <div>
     <button @click="enableCustomLayout">Update layout</button>
-  </div>
+  </div> -->
 </template>
 
 <script setup lang="ts">
@@ -10,7 +10,7 @@
 //   layout: "another",
 // });
 
-function enableCustomLayout() {
-  setPageLayout("another");
-}
+// function enableCustomLayout() {
+//   setPageLayout("another");
+// }
 </script>
