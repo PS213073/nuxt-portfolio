@@ -1,20 +1,6 @@
 <template>
-  <div>This page is about me!</div>
-  <!-- <div>
-    <button @click="enableCustomLayout">Update layout</button>
-  </div> -->
+  <article class="prose dark:prose-invert prose-h1:font-semibold">
+    <ContentDoc path="/about" />
+  </article>
 </template>
 
-<script setup lang="ts">
-// definePageMeta({
-//   layout: "another",
-// });
-
-// function enableCustomLayout() {
-//   setPageLayout("another");
-// }
-
-useHead({
-  title: "About",
-});
-</script>
