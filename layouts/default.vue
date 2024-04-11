@@ -17,6 +17,11 @@ import { NuxtLink } from '#build/components';
 </template>
 
 <script setup>
+const colorMode = useColorMode()
+console.log(colorMode.preference)
+colorMode.preference = 'light'
+// colorMode.preference = 'dark'
+
 useHead({
   titleTemplate: "%s - Daniel Shahzada",
   link: [
@@ -36,5 +41,6 @@ useHead({
 <style>
 body{
   /* font-family: Roboto; */
+  @apply bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300
 }
 </style>
