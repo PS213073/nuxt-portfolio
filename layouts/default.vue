@@ -47,6 +47,6 @@ useHead({
 <style>
 body {
   /* font-family: Roboto; */
-  @apply bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300;
+  @apply bg-white dark:bg-[#0a0a0a] text-gray-700 dark:text-gray-300;
 }
 </style>
