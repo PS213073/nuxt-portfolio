@@ -1,5 +1,6 @@
 ---
 description: 'meta description of the page'
+toc: true
 --- 
 # Hello There, I'm Daniel
 
