@@ -26,6 +26,32 @@
 </template>
 
 <script setup>
-const route = useRoute();
-console.log(route.params.slug);
+const activeId = ref(null)
+onMounted(() => {
+  const callback = (entries) => {
+    for (const entry of entries){
+      if(entry.isIntersecting){
+        activeId.value = entry.target.id
+        break;
+      }
+    }
+  };
+
+  const observer = new IntersectionObserver(callback, {
+    root: null,
+    threshold: 0.5,
+  })
+  const elements = document.querySelectorAll('h2', 'h3')
+
+  for (const element of elements){
+    observer.observe(element)
+  }
+
+  onBeforeUnmount(() => {
+    // console.log('onBeforeUnmount');
+    for (const elemet of elements){
+      observer.unobserve(elemet)
+    }
+  })
+})
 </script>
