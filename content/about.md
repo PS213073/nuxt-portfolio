@@ -19,7 +19,7 @@ I'm learning mostly web development at the moment but sometimes also mobile app 
 - Flutter (Frontend UI of mobile app)
 - Dart(Logic building/backend of mobile app)
 
-## What software/hardware do I use?
+## What software/hardware I use?
 
 Here's a list of everyday used software and hardware:
 
