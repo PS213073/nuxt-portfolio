@@ -61,3 +61,9 @@ onMounted(() => {
   });
 });
 </script>
+
+<style>
+img{
+  @apply w-56 h-auto
+}
+</style>
