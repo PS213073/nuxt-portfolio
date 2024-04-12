@@ -14,6 +14,8 @@ head:
       content: '© 2022 NuxtLabs'
     - name: 'og:title'
       content: 'This is og title'
+publishedAt: 2024-03-12 16:26:00
+
 ---
 
 # First post on our website
