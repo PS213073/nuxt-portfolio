@@ -14,7 +14,7 @@
           >
             <div
               :class="{
-                'text-white dark:text-gray-900': !post.displayYear,
+                'text-transparent dark:text-transparent': !post.displayYear,
                 'text-gray-400 dark:text-gray-500': post.displayYear,
               }"
             >
