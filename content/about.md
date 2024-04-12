@@ -5,7 +5,7 @@ description: 'meta description of the page'
 
 ## About me
 
-I'm Daniel, I'm a student software developer at Summa College Eindhoven. I'm 25, living in Weer Netherlands with my parents and a sister. I'm also like to play squash 🎾.
+I'm Daniel, I'm a student software developer at Summa College Eindhoven. I'm 25, living in Weert Netherlands with my parents and a sister. I'm also like to play squash 🎾.
 
 ## What I'm learning at the moment
 
