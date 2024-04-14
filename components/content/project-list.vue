@@ -25,7 +25,7 @@
 <script setup>
 const { error, pending, data } = await useFetch(
   //   "https://api.github.com/users/PS213073/repos"
-  "https://api.github.com/users/piotr-jura-udemy/repos"
+  "https://api.github.com/users/PS213073/repos"
 );
 const repos = computed(() =>
   data.value
