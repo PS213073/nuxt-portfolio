@@ -6,15 +6,16 @@ toc: true
 
 ## About me
 
-I'm Daniel, I'm a student software developer at Summa College Eindhoven. I'm 25, living in Weert Netherlands with my parents and a sister. I'm also like to play squash 🎾.
+I'm Daniel, I'm a student software developer at Summa College Eindhoven. I'm 25, living in Weert Netherlands with my parents. I also like to play squash 💪.
 
 ## What I'm learning at the moment
 
 I'm learning mostly web development at the moment but sometimes also mobile app development:
 
 - Laravel (PHP framework)
-- Laravel & Vue & Inertia (PHP framework/JavaScript frontend framework)
+- Vue 3
 - Nuxt 3 (JavaScript Full-stack framework)
+- Inertia
 - Next.js 14 - Full-Stack
 - Flutter (Frontend UI of mobile app)
 - Dart(Logic building/backend of mobile app)
